@@ -1,20 +1,20 @@
-Created by KJEKcode with contributions from NONE 
-# TEST
+Created by KJEKcode with contributions from Me, Myself, I 
+# Readme Generator
 ## Description:
-TEST
+Javascript file generates a preformatted readme file
 ### Table of Contents:
 - [Usage](#usage)
 - [Liscense](#liscense)
 - [Contributors](#contributors)
 - [Tests](#tests)
 ### Usage:
-TEST
+Run node index.js in your terminal and answer the questions that follow. The javascript will then generate a genREADME.md based on your answers
 ### Liscense
-NONE
+none
 ### Contributors
-NONE
+Me, Myself, I
 ### Tests
-NONE
+none
 ### Questions?
 Please direct questions to <img src="https://avatars2.githubusercontent.com/u/26723326?v=4" width='50px'/> KJEKcode at email: null
 <br><br>
