@@ -50,6 +50,7 @@ ${answers.description}
 - [Liscense](#liscense)
 - [Contributors](#contributors)
 - [Tests](#tests)
+- [Questions](#questions)
 ### Usage:
 ${answers.usage}
 ### Liscense
@@ -58,8 +59,8 @@ ${answers.liscense}
 ${answers.contributing}
 ### Tests
 ${answers.test}
-### Questions?
-Please direct questions to:
+### Questions
+Please direct questions to:<br>
 <img src="${data.avatar_url}" width='50px'/> ${answers.username} at email: ${data.email}
 <br><br>
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)`, 

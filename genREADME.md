@@ -7,6 +7,7 @@ Javascript file generates a preformatted readme file
 - [Liscense](#liscense)
 - [Contributors](#contributors)
 - [Tests](#tests)
+- [Questions](#questions)
 ### Usage:
 Run node index.js in your terminal and answer the questions that follow. The javascript will then generate a genREADME.md based on your answers
 ### Liscense
@@ -15,7 +16,7 @@ None
 Me, Myself, I
 ### Tests
 None
-### Questions?
+### Questions
 Please direct questions to:<br>
 <img src="https://avatars2.githubusercontent.com/u/26723326?v=4" width='50px'/> KJEKcode at email: null
 <br><br>
