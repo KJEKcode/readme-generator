@@ -1,4 +1,3 @@
-Created by KJEKcode with contributions from Me, Myself, I 
 # Readme Generator
 ## Description:
 Javascript file generates a preformatted readme file

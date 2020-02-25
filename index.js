@@ -41,8 +41,7 @@ inquirer.prompt([
 ]).then(function(answers) {
   api.getUser(answers.username).then(({data}) => {
     fs.writeFile("genREADME.md", 
-`Created by ${answers.username} with contributions from ${answers.contributing} 
-# ${answers.title}
+`# ${answers.title}
 ## Description:
 ${answers.description}
 ### Table of Contents:
