@@ -1,17 +1,18 @@
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) by KJEKcode with contributions from Me, Myself, I 
-  # README Generator:
+Created by KJEKcode with contributions from Me, Myself, I 
+  # README Generator
   ## Description:
-  Uses javascript to generate a readme file
-  ###Table of Contents
+  Generate a readme using javascript
+  ### Table of Contents:
   - [Usage](#usage)
   - [Liscense](#liscense)
   - [Contributors](#contributors)
   - [Tests](#tests)
-  ### Usage(#usage):
-  Answer a few simple question in the terminal to generate a readme.md file
-  ### Liscense(#liscense)
+  ### Usage:
+  Answer a few questions in the terminal and the javascript will create a preformatted readme.md for you
+  ### Liscense
   none
-  ### Contributors(#contributors)
+  ### Contributors
   Me, Myself, I
-  ### Tests(#tests)
+  ### Tests
   None
+  [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
