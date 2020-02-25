@@ -1,13 +1,12 @@
-This project was created by KJEKcode with contributions from Test 
-  # Test:
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) by KJEKcode with contributions from Me, Myself, I 
+  # README Generator:
   ## Description:
-  Test
+  This will generate a readme
   ### Usage:
-  Test
+  Use this to generate readme templates
   ### Liscense
-  Test
+  None
   ### Contributors
-  Test
+  Me, Myself, I
   ### Tests
-  Test
-  [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
+  None
