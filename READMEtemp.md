@@ -1,6 +1,6 @@
 
-# README Generator
-This project will generate a preformatted readme file based on the answers to question show in the terminal
+# Test
+Test
 ## Table of Contents:
 - [Liscense](#Liscense)
 - [Install](#Install Command)
@@ -9,15 +9,15 @@ This project will generate a preformatted readme file based on the answers to qu
 - [Contribution](#Contribution Notes)
 - [Questions](#Questions)
 ### License
-MIT
+None
 ### Install Command
-npm i
+Test
 ### Test Command
-node index.js
+Test
 ### Usage Notes
-Use it to generate readme templates
+Test
 ### Contribution Notes
-Contribute as much or as little as you would like
+Test
 ### Questions
 <br>
 <img src="https://avatars2.githubusercontent.com/u/26723326?v=4" width='50px'/> <br>KJEKcode at email: null
