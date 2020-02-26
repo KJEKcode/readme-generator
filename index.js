@@ -1,77 +1,63 @@
+const axios = require("axios");
+const readmeTemp = require("./readmeTemplate.js")
+const api = require("./api.js")
 const inquirer = require("inquirer");
-const api = require("./api.js");
-const fs = require('fs');
-
-inquirer.prompt([
+const fs = require("fs");
+const promtQuestions = [
   {
     type: "input",
-    name: "username",
-    message: "What is your github username?"
+    message: "Enter Github username:",
+    name: "username"
   },
   {
-    type: "input",
-    name: "title",
-    message: "What is your projects title?"
+      type: "input",
+      message: "Enter Project Title:",
+      name: "title"
   },
   {
-    type: "input",
-    name: "description",
-    message: "Write a description for your project"
+      type: "input",
+      message: "Enter Description of project:",
+      name:"description"
   },
   {
-    type: "input",
-    name: "usage",
-    message: "Enter your usage notes"
+      type: "list",
+      message: "Enter Project License:",
+      choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+      name: "license"
   },
   {
-    type: "input",
-    name: "liscense",
-    message: "Enter your projects liscense information"
+      type: "input",
+      message: "Enter Dependency Install Command:",
+      name: "install"
   },
   {
-    type: "input",
-    name: "contributing",
-    message: "List your contributors (comma seperated)"
+      type: "input",
+      message: "Enter Project Test Command:",
+      name: "test"
   },
   {
-    type: "input",
-    name: "test",
-    message: "Tests"
+      type: "input",
+      message: "Enter Usage Notes:",
+      name: "usage"
+  },
+  {
+      type: "input",
+      message: "Enter Contribution Notes:",
+      name: "contributions"
   }
-]).then(function(answers) {
-  api.getUser(answers.username).then(({data}) => {
-    fs.writeFile("genREADME.md", 
-`# ${answers.title}
-## Description:
-${answers.description}
-### Table of Contents:
-- [Usage](#usage)
-- [Liscense](#liscense)
-- [Contributors](#contributors)
-- [Tests](#tests)
-- [Questions](#questions)
-### Usage:
-${answers.usage}
-### Liscense
-${answers.liscense}
-### Contributors
-${answers.contributing}
-### Tests
-${answers.test}
-### Questions
-Please direct questions to:<br>
-<img src="${data.avatar_url}" width='50px'/> ${answers.username} at email: ${data.email}
-<br><br>
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)`, 
-    function(err) {
+];
 
-      if (err) {
-        return console.log(err);
-      }
+function init() {
+  inquirer.prompt(promtQuestions).then(answers => {
+    console.log(answers);
+    api.getUser(answers.username).then(({data}) => {
+      fs.writeFile('READMEtemp.md', readmeTemp({...answers, ...data}), err=>{
+        if(err) throw err
+        console.log('Success!')
+      })
+    })
+  })
+}
 
-      console.log("Success!");
+init();
 
-    });
-  });
-  
-});

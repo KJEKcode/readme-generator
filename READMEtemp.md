@@ -1,6 +1,6 @@
 
-# TEST7
-TEST7
+# Example Title
+This is an example description. Here is where you can tell people all about what your project does.
 ## Table of Contents
 - [Liscense](#liscense)
 - [Install](#install-command)
@@ -11,13 +11,13 @@ TEST7
 ### License
 MIT
 ### Install Command
-TEST7
+npm i
 ### Test Command
-TEST7
+node index.js
 ### Usage Notes
-TEST7
+This is an exmaple of usage notes. Here is where you put all of your usage information
 ### Contribution Notes
-TEST7
+This is an exmaple of contribution notes. Here is where you put all of your contribution information 
 ### Questions
 
 <img src="https://avatars2.githubusercontent.com/u/26723326?v=4" width='50px'/>
